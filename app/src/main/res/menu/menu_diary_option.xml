@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/delete_diary"
+        android:title="Delete"/>
+    <item android:id="@+id/stick_to_top"
+        android:title="Stick to top"/>
+    <item android:id="@+id/share_diary"
+        android:title="Share"/>
+    <item android:id="@+id/export_pdf"
+        android:title="Export to PDF"/>
+    <item android:id="@+id/prompt"
+        android:title="Prompt"
+        android:checkable="false"
+        android:checked="true"
+        />
+
+</menu>
