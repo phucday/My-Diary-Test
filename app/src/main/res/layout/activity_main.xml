@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".UI.MainActivity">
 
     <View
         android:id="@+id/view_eye_protection"
@@ -77,7 +77,7 @@
         android:layout_height="@dimen/_50sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="@id/layoutNote"
-        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_6sdp"
         android:text="Insert Image"
         />
 
@@ -87,8 +87,18 @@
         android:layout_height="@dimen/_50sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/btnInsertImage"
-        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_6sdp"
         android:text="Add Sticker"
+        />
+
+    <Button
+        android:id="@+id/btnAddBulletEdt"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_50sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/btnAddSticker"
+        android:layout_marginStart="@dimen/_6sdp"
+        android:text="Add Bullet List"
         />
 
         <ScrollView
