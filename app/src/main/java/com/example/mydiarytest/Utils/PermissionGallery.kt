@@ -1,4 +1,4 @@
-package com.example.mydiarytest
+package com.example.mydiarytest.Utils
 
 import android.content.Context
 import android.content.pm.PackageManager
